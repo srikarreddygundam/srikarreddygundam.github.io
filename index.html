@@ -832,7 +832,7 @@ footer {
       Based in Queens, NY — open to remote roles.
     </p>
     <div class="hero-ctas">
-      <a href="mailto:srikarreddygundam03@gmail.com" class="btn-primary">
+      <a href="/cdn-cgi/l/email-protection#89fafbe0e2e8fbfbecededf0eefce7ede8e4b9bac9eee4e8e0e5a7eae6e4" class="btn-primary">
         ✉ Get In Touch
       </a>
       <a href="https://github.com/srikarreddygundam" target="_blank" class="btn-secondary">
@@ -1087,49 +1087,39 @@ footer {
   <div class="projects-grid">
 
     <div class="project-card">
-      <div class="project-number">01 / COMING SOON</div>
-      <div class="project-title">Kafka Order Processing Pipeline</div>
-      <div class="project-desc">A Spring Boot application demonstrating real-time order processing using Apache Kafka producers and consumers — simulating high-throughput transaction workflows at scale.</div>
+      <div class="project-number">01 / LIVE</div>
+      <div class="project-title">URL Shortener</div>
+      <div class="project-desc">A production-grade URL shortener like bit.ly — built with Java, Spring Boot, MySQL and Redis. Features custom aliases, click analytics, cache-aside pattern for sub-millisecond redirects, and a leaderboard of top clicked URLs.</div>
       <div class="project-stack">
         <span class="stack-tag">Java</span>
         <span class="stack-tag">Spring Boot</span>
-        <span class="stack-tag">Apache Kafka</span>
-        <span class="stack-tag">Docker</span>
         <span class="stack-tag">MySQL</span>
+        <span class="stack-tag">Redis</span>
+        <span class="stack-tag">Docker</span>
+        <span class="stack-tag">JUnit</span>
       </div>
-      <div class="project-status">
-        <span class="status-dot coming"></span>
-        In Development
+      <div class="project-status" style="display:flex; align-items:center; justify-content:space-between;">
+        <span style="display:flex; align-items:center; gap:6px;">
+          <span class="status-dot"></span>
+          Live on GitHub
+        </span>
+        <a href="https://github.com/srikarreddygundam/url-shortener" target="_blank"
+           style="font-family:'Space Mono',monospace; font-size:11px; color:var(--accent); text-decoration:none; border:1px solid var(--accent); padding:4px 10px; border-radius:4px;">
+          View Code ↗
+        </a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-number">02 / COMING SOON</div>
       <div class="project-title">Regulatory Workflow REST API</div>
-      <div class="project-desc">A Spring Boot REST API simulating a multi-step approval workflow with role-based access control, SLA tracking, and email notifications — inspired by enterprise case management systems.</div>
+      <div class="project-desc">A Spring Boot REST API simulating a multi-step approval workflow with role-based access control, SLA-aware notifications, and email alerts — inspired by enterprise case management platforms built for GE Healthcare.</div>
       <div class="project-stack">
         <span class="stack-tag">Java</span>
         <span class="stack-tag">Spring Boot</span>
         <span class="stack-tag">Spring Security</span>
         <span class="stack-tag">MySQL</span>
         <span class="stack-tag">JUnit</span>
-      </div>
-      <div class="project-status">
-        <span class="status-dot coming"></span>
-        In Development
-      </div>
-    </div>
-
-    <div class="project-card">
-      <div class="project-number">03 / COMING SOON</div>
-      <div class="project-title">Full Stack Dashboard</div>
-      <div class="project-desc">A full stack application with a Spring Boot backend and ReactJS frontend — featuring real-time data filtering, role-based views, and REST API integration demonstrating end-to-end delivery.</div>
-      <div class="project-stack">
-        <span class="stack-tag">Java</span>
-        <span class="stack-tag">Spring Boot</span>
-        <span class="stack-tag">ReactJS</span>
-        <span class="stack-tag">REST APIs</span>
-        <span class="stack-tag">MySQL</span>
       </div>
       <div class="project-status">
         <span class="status-dot coming"></span>
@@ -1168,8 +1158,8 @@ footer {
       Java, Spring Boot, distributed systems, Kafka. Open to H-1B sponsorship discussions.
     </p>
     <div class="contact-links">
-      <a href="mailto:srikarreddygundam03@gmail.com" class="contact-link">
-        ✉ srikarreddygundam03@gmail.com
+      <a href="/cdn-cgi/l/email-protection#5c2f2e35373d2e2e393838253b2932383d316c6f1c3b313d3530723f3331" class="contact-link">
+        ✉ <span class="__cf_email__" data-cfemail="7605041f1d1704041312120f11031812171b464536111b171f1a5815191b">[email&#160;protected]</span>
       </a>
       <a href="https://github.com/srikarreddygundam" target="_blank" class="contact-link">
         ◆ github.com/srikarreddygundam
@@ -1189,7 +1179,7 @@ footer {
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Custom cursor
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursorRing');
@@ -1242,15 +1232,4 @@ document.querySelectorAll('.skill-card, .highlight-card, .project-card, .edu-car
 
 // Active nav highlight
 const sections = document.querySelectorAll('section[id]');
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(s => {
-    if (window.scrollY >= s.offsetTop - 100) current = s.id;
-  });
-  document.querySelectorAll('.nav-links a').forEach(a => {
-    a.style.color = a.getAttribute('href') === '#' + current ? 'var(--accent)' : '';
-  });
-});
-</script>
-</body>
-</html>
+window.addEventListe
